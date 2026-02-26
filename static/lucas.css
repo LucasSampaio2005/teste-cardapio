@@ -133,9 +133,6 @@ ul {
     font-size: 25px;      
     margin-top: 10px;     
   }
-  .descricao-artesanal p{
-    font-size: 14px;
-  }
 }
 
 .bolos {
@@ -153,6 +150,7 @@ ul {
 }
 
 .descricao-artesanal {
+    text-align: center;
     width: 75vw;
     margin-top: -10px;
     margin-bottom: 20px;
@@ -160,7 +158,7 @@ ul {
 
 .descricao-artesanal p {
     font-family: 'Sorts Mill Goudy', serif;
-    font-size: 22px;
+    font-size: clamp(12px, 3vw, 20px);;
     color: #7e5039;
     margin: 0;
 }
