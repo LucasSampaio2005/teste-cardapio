@@ -148,3 +148,17 @@ ul {
     width: 75vw;
     text-align: left;
 }
+
+.descricao-artesanal {
+    text-align: center;
+    width: 75vw;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.descricao-artesanal p {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 22px;
+    color: #7e5039;
+    margin: 0;
+}
