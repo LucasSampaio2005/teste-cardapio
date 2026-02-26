@@ -143,3 +143,8 @@ ul {
     align-items: center;
     flex-direction: column;
 }
+
+.bolos ul {
+    width: 75vw;
+    text-align: left;
+}
