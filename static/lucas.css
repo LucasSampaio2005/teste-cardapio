@@ -162,3 +162,11 @@ ul {
     color: #7e5039;
     margin: 0;
 }
+
+.info-entrega {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: clamp(12px, 2.8vw, 18px);
+    color: #7e5039;
+    text-align: center;
+    margin: 5px 0 10px 0;
+}
