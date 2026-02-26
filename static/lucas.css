@@ -1,0 +1,145 @@
+body {
+    background-image: url(imagens/fundo_print.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 0px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.produto {
+    font-family: "Anton";
+    margin: 0px;
+    font-size: 3.3vw;
+    color: #543020;
+}
+.descricao  {
+    font-family: "sorts mill goudy";
+    margin: 0px;
+    font-size: 2.5vw;
+    color: #7e5039;
+}
+.container {
+    background-color: #f7f8e6;
+    width: 85vw;
+    height: auto;
+    margin-top: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3.7vw;
+}
+
+.header {
+    width: auto;
+    height: auto;
+    margin-top: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.logo {
+    width: 70vw;
+    height: 30vw;
+}
+.cookies {
+    width: auto;
+    height: auto;
+    margin-top: 3vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.titulo {
+    font-family: "Anton";
+    font-size: 2vw;
+    background-color: #81513c;
+    color: #ffffff;
+    width: 75vw;
+    height: 8vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3.5vw;
+    margin-bottom: 3vw;
+}
+.img-produtos {
+    width: 75vw;
+    height: 25vw;
+}
+.cucas-grande {
+    width: auto;
+    height: auto;
+    margin-top: 5vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cucas-media {
+    width: auto;
+    height: auto;
+    margin-top: 5vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer {
+    background-color: #f7f8e6;
+    width: 85vw;
+    height: auto;
+    display: flex;
+    border-radius: 3.7vw;
+    margin-top: 3.5vw;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 6vw;
+}
+
+.texto-footer {
+    font-family: "Anton";
+    font-size: 5vw;
+    color: #543020;
+    margin: 0px;
+    margin-top: 1vw;
+}
+
+.zap {
+    width: 10vw;
+    height: 10vw;
+    margin-bottom: 1vw;
+    display: block; 
+}
+
+.subtitulo-principal p {
+  color: #8B4513;
+  text-align: center;
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 70px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .subtitulo-principal p {
+    font-size: 25px;      
+    margin-top: 10px;     
+  }
+}
+
+.bolos {
+    width: auto;
+    height: auto;
+    margin-top: 5vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cucas & Cookies</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='lucas.css')}}">
+    <link rel="icon" href="{{url_for('static',filename='imagens/cookie_icon.png')}}" type="png">
+   <!-- FONTES ANTON E SORTS MILL GOUDY --> <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Sorts+Mill+Goudy:ital@0;1&display=swap" rel="stylesheet">  
+</head>
+<body>
+    
+<div class="container">
+    <div class="header">
+       <img src="{{url_for('static',filename='imagens/logo.png')}}" alt="" class="logo">
+    </div>
+
+    <div class="subtitulo-principal">
+    <p>Da Regi</p>
+</div>
+
+    <div class="cookies">
+        <div class="titulo">
+            <h1>COOKIES (30g)</h1>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <p class="produto">COOKIE TRADICIONAL ................................................. R$ 5,00/un</p>
+                    <p class="descricao">Cookie com recheio de brigadeiro de chocolate meio amargo</p>
+                </li>
+                <li>
+                    <p class="produto">COOKIE DE CHOCOLATE ............................................... R$ 5,00/un</p>
+                    <p class="descricao">Cookie com recheio de brigadeiro de ninho</p>
+                </li>
+                <li>
+                    <p class="produto">COOKIE CASADINHO .................................................... R$ 5,00/un</p>
+                    <p class="descricao">Cookie com recheio de brigadeiro de chocolate meio amargo e de ninho</p>
+                </li>
+                <li>
+                    <p class="produto">COOKIE RED VELVET .................................................... R$ 5,00/un</p>
+                    <p class="descricao">Cookie com recheio de brigadeiro de cream cheese</p>
+                </li>
+                <li>
+                    <p class="produto">COOKIE DE PISTACHE ................................................... R$ 5,00/un</p>
+                    <p class="descricao">Cookie com recheio de brigadeiro de pistache</p>
+                </li>
+            </ul>
+            <img class="img-produtos" src="{{url_for('static',filename='imagens/imagens_cookies.png')}}" alt="">
+        </div>
+    </div>
+    <div class="cucas-grande">
+        <div class="titulo">
+            <h1>CUCAS (Grande: Aro 26cm)</h1>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <p class="produto">CUCA GOIABADA ........................................................ R$ 70,00</p>
+                    <p class="descricao">Cuca de goiabada, coberta com farofa crocante</p>
+                </li>
+                <li>
+                    <p class="produto">CUCA SENSAÇÃO ........................................................ R$ 75,00</p>
+                    <p class="descricao">Cuca de morango com blend de chocolate, coberta com farofa crocante</p>
+                </li>
+                <li>
+                    <p class="produto">CUCA DE BANANA ....................................................... R$ 70,00</p>
+                    <p class="descricao">Cuca de banana, coberta com farofa crocante de canela</p>
+                </li>
+                <li>
+                    <p class="produto">CUCA DE DOCE DE LEITE  ............................................. R$ 70,00</p>
+                    <p class="descricao">Cuca com doce de leite, coberta com farofa crocante de canela</p>
+                </li>
+                <li>
+                    <p class="produto">CUCA DE BANOFFE ....................................................... R$ 70,00</p>
+                    <p class="descricao">Cuca com doce de leite e banana, coberta com farofa crocante de canela</p>
+                </li>
+            </ul>
+            <img class="img-produtos" src="{{url_for('static',filename='imagens/imagens_cucas_grandes.png')}}" alt="">
+        </div>
+    </div>
+    <div class="cucas-media">
+        <div class="titulo">
+            <h1>CUCAS (Média: 15cmx20cm)</h1>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <p class="produto">CUCA GOIABADA ........................................................ R$ 40,00</p>
+                    <p class="descricao">Cuca de goiabada, coberta com farofa crocante</p>
+                </li>
+                <li>
+                    <p class="produto">CUCA SENSAÇÃO ........................................................ R$ 45,00</p>
+                    <p class="descricao">Cuca de morango com blend de chocolate, coberta com farofa crocante</p>
+                </li>
+                <li>
+                    <p class="produto">CUCA DE BANANA ....................................................... R$ 40,00</p>
+                    <p class="descricao">Cuca de banana, coberta com farofa crocante de canela</p>
+                </li>
+                <li>
+                    <p class="produto">CUCA DE DOCE DE LEITE  ............................................. R$ 40,00</p>
+                    <p class="descricao">Cuca com doce de leite, coberta com farofa crocante de canela</p>
+                </li>
+                <li>
+                    <p class="produto">CUCA DE BANOFFE ....................................................... R$ 40,00</p>
+                    <p class="descricao">Cuca com doce de leite e banana, coberta com farofa crocante de canela</p>
+                </li>
+            </ul>
+            <img class="img-produtos" src="{{url_for('static',filename='imagens/imagens_cucas_medias.png')}}" alt="">
+        </div>
+    </div>
+    <div class="bolos">
+    <div class="titulo">
+        <h1>BOLOS</h1>
+    </div>
+    <div>
+        <ul>
+            <li>
+                <p class="produto">BOLO DE CHOCOLATE ................................................. R$ 60,00</p>
+                <p class="descricao">Bolo de chocolate com cobertura de brigadeiro</p>
+            </li>
+            <li>
+                <p class="produto">BOLO DE CENOURA .................................................... R$ 55,00</p>
+                <p class="descricao">Bolo de cenoura com cobertura de chocolate</p>
+            </li>
+            <li>
+                <p class="produto">BOLO RED VELVET ..................................................... R$ 70,00</p>
+                <p class="descricao">Bolo red velvet com cobertura de cream cheese</p>
+            </li>
+        </ul>
+
+        <img class="img-produtos" src="{{url_for('static',filename='imagens/imagens_bolos.png')}}" alt="">
+    </div>
+</div>
+</div>
+<div class="footer">
+    <p class="texto-footer">FAÇA SEU PEDIDO JÁ!</p>
+    <a href="https://wa.me/5567999228877" target="_blank" rel="noopener noreferrer">
+        
+            <img class="zap" src="{{url_for('static',filename='imagens/wpp.png')}}" alt="WhatsApp">
+       
+    </a>
+</div>
+
+</body>
+</html>
